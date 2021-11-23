@@ -1,12 +1,16 @@
 .vbb-main-nav-bar {
   margin-top: 2rem;
 
+  &__button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   &__button {
-    p{
     text-align: center;
-    }
     background-color: #ffc3c8;
-    vertical-align: middle;
+    width: 100%;
 
     :hover {
       background-color: #ffc4d4;

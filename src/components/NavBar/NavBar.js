@@ -5,7 +5,6 @@ import vbb_icon from "../../assets/vbb-icon-full.png";
 const NavBar = () => (
   <div class="bx--grid vbb-main-nav-bar">
     <div class="bx--row">
-      <div class="bx--col-lg-1" />
       <div class="bx--col-lg-1">
         <a href="">
           <img
@@ -16,24 +15,29 @@ const NavBar = () => (
           />
         </a>
       </div>
-      <div class="bx--col-lg-2">
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
         <Button className="bx--btn--primary vbb-main-nav-bar__button">
           Home
         </Button>
       </div>
-      <div class="bx--col-lg-2">
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
         <Button className="bx--btn--primary vbb-main-nav-bar__button">
           About
         </Button>
       </div>
-      <div class="bx--col-lg-2">
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
         <Button className="bx--btn--primary vbb-main-nav-bar__button">
           Upcoming Shows
         </Button>
       </div>
-      <div class="bx--col-lg-2">
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
         <Button className="bx--btn--primary vbb-main-nav-bar__button">
           Book Now
+        </Button>
+      </div>
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
+        <Button className="bx--btn--primary vbb-main-nav-bar__button">
+          Performances
         </Button>
       </div>
       <div class="bx--col-lg-1" />
