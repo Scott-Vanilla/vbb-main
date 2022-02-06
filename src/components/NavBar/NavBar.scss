@@ -1,5 +1,13 @@
 .vbb-main-nav-bar {
-  margin-top: 2rem;
+  margin-top: 1rem;
+
+  &__logo-row {
+    margin-bottom: 1rem;
+  }
+
+  &__links {
+    margin-bottom: 1rem;
+  }
 
   &__button-container {
     display: flex;
@@ -9,11 +17,11 @@
 
   &__button {
     text-align: center;
-    background-color: #ffc3c8;
+    background-color: #da7472;
     width: 100%;
 
-    :hover {
-      background-color: #ffc4d4;
+    &:hover {
+      background-color: #e59b98;
     }
   }
 }

@@ -1,26 +1,29 @@
 import React from "react";
 import { Button } from "carbon-components-react";
 import vbb_icon from "../../assets/vbb-icon-full.png";
-import vbb_text_icon from "../../assets/text-logo.png"
+
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 const NavBar = () => (
   <div class="bx--grid vbb-main-nav-bar">
-    <div class="bx--row">
-      <div class="bx--col-lg-3 vbb-main-nav-bar__button-container">
-        <a href="">
-        <img
-            src={vbb_text_icon}
-            width="300px"
-            alt="Vanilla BonBon Logo"
-          />
+    <div class="bx--row vbb-main-nav-bar__logo-row">
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container" />
+      <div class="bx--col-lg-8 vbb-main-nav-bar__button-container">
+        <a href="/">
           <img
             src={vbb_icon}
-            height="100px"
-            width="100px"
+            height="200px"
+            width="200px"
             alt="Vanilla BonBon Logo"
           />
         </a>
       </div>
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
+        <SocialIcons isInstagramVisable={true} isFacebookVisable={true} />
+      </div>
+    </div>
+    <div class="bx--row vbb-main-nav-bar__links">
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container" />
       <div class="bx--col-lg-2 vbb-main-nav-bar__button-container">
         <Button className="bx--btn--primary vbb-main-nav-bar__button">
           Home
@@ -41,6 +44,7 @@ const NavBar = () => (
           Book Now
         </Button>
       </div>
+      <div class="bx--col-lg-2 vbb-main-nav-bar__button-container" />
     </div>
   </div>
 );
