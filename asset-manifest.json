@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/vbb-main/static/css/main.71c05b93.chunk.css",
+    "main.js": "/vbb-main/static/js/main.e2ff074d.chunk.js",
+    "main.js.map": "/vbb-main/static/js/main.e2ff074d.chunk.js.map",
+    "runtime-main.js": "/vbb-main/static/js/runtime-main.cd98d114.js",
+    "runtime-main.js.map": "/vbb-main/static/js/runtime-main.cd98d114.js.map",
+    "static/js/2.0147d8cb.chunk.js": "/vbb-main/static/js/2.0147d8cb.chunk.js",
+    "static/js/2.0147d8cb.chunk.js.map": "/vbb-main/static/js/2.0147d8cb.chunk.js.map",
+    "static/js/3.10891773.chunk.js": "/vbb-main/static/js/3.10891773.chunk.js",
+    "static/js/3.10891773.chunk.js.map": "/vbb-main/static/js/3.10891773.chunk.js.map",
+    "index.html": "/vbb-main/index.html",
+    "static/css/main.71c05b93.chunk.css.map": "/vbb-main/static/css/main.71c05b93.chunk.css.map",
+    "static/js/2.0147d8cb.chunk.js.LICENSE.txt": "/vbb-main/static/js/2.0147d8cb.chunk.js.LICENSE.txt",
+    "static/media/ig-icon.171f7e16.png": "/vbb-main/static/media/ig-icon.171f7e16.png",
+    "static/media/vbb-icon-full.35e353d2.png": "/vbb-main/static/media/vbb-icon-full.35e353d2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd98d114.js",
+    "static/js/2.0147d8cb.chunk.js",
+    "static/css/main.71c05b93.chunk.css",
+    "static/js/main.e2ff074d.chunk.js"
+  ]
+}
