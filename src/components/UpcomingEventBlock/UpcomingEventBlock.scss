@@ -1,0 +1,17 @@
+.vbb-main-upcoming-event-block {
+  margin-top: 1rem;
+
+  &__content {
+    &__info {
+      margin-top: 3rem;
+
+      &__link {
+        color: #da7472;
+
+        &:hover {
+          color: #e59b98;
+        }
+      }
+    }
+  }
+}

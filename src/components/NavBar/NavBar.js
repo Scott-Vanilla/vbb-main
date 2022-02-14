@@ -15,6 +15,7 @@ const NavBar = () => (
             height="200px"
             width="200px"
             alt="Vanilla BonBon Logo"
+            className="vbb-main-nav-bar__vbb-icon"
           />
         </a>
       </div>

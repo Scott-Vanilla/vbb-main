@@ -1,5 +1,9 @@
 .vbb-main-nav-bar {
   margin-top: 1rem;
+  &__vbb-icon:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+  }
 
   &__logo-row {
     margin-bottom: 1rem;
